@@ -1,3 +1,16 @@
+// Konfigurasi Pin RFID MFRC522 - ESP32
+// -----------------------------------------------------------
+// MFRC522      |  ESP32 GPIO
+// -----------------------------------------------------------
+// SDA (SS)     -> GPIO 5    
+// SCK          -> GPIO 18   
+// MOSI         -> GPIO 23   
+// MISO         -> GPIO 19   
+// RST          -> GPIO 21   
+// GND          -> GND       
+// 3.3V         -> 3.3V      
+// IRQ          -> (Not Connected)
+
 #include <MFRC522v2.h>
 #include <MFRC522DriverSPI.h>
 #include <MFRC522DriverPinSimple.h>
